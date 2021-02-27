@@ -4,7 +4,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
-public class GarbageCollector extends JavaPlugin {
+public class gc extends JavaPlugin {
   public void onEnable() {
     saveDefaultConfig();
     (new BukkitRunnable()
