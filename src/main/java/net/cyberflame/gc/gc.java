@@ -10,7 +10,7 @@ public class gc extends JavaPlugin {
     (new BukkitRunnable()
       {
         public void run() {
-          if (GarbageCollector.this.getConfig().getBoolean("debug")) {
+          if (gc.this.getConfig().getBoolean("debug")) {
             System.out.println("[GC] Running scheduled garbage collection task...");
           }
           System.gc();
